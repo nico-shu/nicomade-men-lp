@@ -1,0 +1,17 @@
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/bodoni-moda-regular.ttf') format('truetype');unicode-range:U+0000-024F,U+1E00-1EFF,U+2000-206F}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:500;font-display:swap;src:url('assets/fonts/bodoni-moda-medium.ttf') format('truetype');unicode-range:U+0000-024F,U+1E00-1EFF,U+2000-206F}
+.eyebrow{font-size:16px;font-weight:400;letter-spacing:.13em;line-height:1.5}
+.value-grid .eyebrow{font-size:13px;letter-spacing:.08em}
+.hero-copy .eyebrow{font-size:15px;letter-spacing:.14em}
+.hero-bottom{font-size:12px;letter-spacing:.12em}
+.statement>p{font-size:15px;letter-spacing:.15em}
+.story-photo span{font-size:12px;letter-spacing:.13em}
+footer>span{font-size:11px;letter-spacing:.08em}
+.label{font-size:20px;font-weight:400;letter-spacing:.14em;line-height:1.45}
+.hero-content .label{font-size:16px;letter-spacing:.13em}
+.edition{font-size:12px;letter-spacing:.12em}
+.hero-foot{font-size:12px;letter-spacing:.13em}
+.vertical{font-size:12px;letter-spacing:.14em}
+.return-list article>span{font-size:14px;letter-spacing:.1em}
+.return-list b{letter-spacing:-.02em}
+@media(max-width:760px){.hero-copy .eyebrow{font-size:12px;letter-spacing:.09em}.eyebrow{font-size:14px}.value-grid .eyebrow{font-size:12px}.hero-bottom{font-size:9px;letter-spacing:.07em}.hero-bottom>span{max-width:175px}.statement>p{font-size:12px;letter-spacing:.12em}.story-photo span{font-size:10px}.hero-content .label{font-size:12px;letter-spacing:.1em}.label{font-size:18px;letter-spacing:.12em}.hero-foot{font-size:10px;letter-spacing:.08em}.return-list article>span{font-size:12px;letter-spacing:.07em}.tower-switch{font-size:10px!important;letter-spacing:.03em!important}footer>span{font-size:9px}}
