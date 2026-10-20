@@ -1,0 +1,42 @@
+/* v2 2026-10-19: ペルソナ指摘 N2〜N4 */
+@media(min-width:761px){
+.tower-page .interior-description,.tower-page .interior-consult>p:not(.interior-label):not(.interior-fine){font-size:15px}
+.tower-page .service-grid p,.tower-page .interior-flow li p,.tower-page .interior-faq details p,.tower-page .plan-details>p:not(.plan-price):not(.plan-caption):not(.interior-fine){font-size:14px}
+.tower-page .case-grid figcaption p,.tower-page .interior-fine{font-size:13px}
+.tower-page .interior-faq summary{font-size:15px}
+}
+.tower-page .plan-breakdown p{display:block}
+.tower-page .plan-breakdown p span{display:block}
+.tower-page .plan-breakdown p span:first-child{color:var(--interior-copy);font-size:.85em;margin-bottom:2px}
+.tower-page .plan-breakdown p+p{border-top:1px solid var(--interior-line);padding-top:8px;margin-top:8px}
+.sticky-line{display:none}
+@media(max-width:760px){
+.sticky-line{display:flex;position:fixed;left:16px;right:16px;bottom:calc(14px + env(safe-area-inset-bottom));z-index:50;justify-content:space-between;align-items:center;padding:11px 20px;font-size:15px;color:#17130d;background:linear-gradient(115deg,#926d35,#ddbd7c 55%,#b48c4d);border:1px solid #d4ae68;box-shadow:0 8px 24px rgba(0,0,0,.45);transition:opacity .3s,transform .3s}
+.sticky-line.is-hidden{opacity:0;transform:translateY(120%);pointer-events:none}
+.tower-page footer{padding-bottom:96px}
+}
+/* J1 2026-10-19: 料金2段（フルデザイン80,000円〜／1部屋45,000円〜） */
+.tower-page .plan-option{padding:6px 0 22px}
+.tower-page .plan-option+.plan-option{border-top:1px solid var(--interior-line);padding-top:24px}
+.tower-page .plan-option .plan-price{margin:0 0 12px}
+.tower-page .plan-price-sub{font-size:42px}
+.tower-page .plan-desc{font-size:14px;line-height:2;margin:0}
+.tower-page .plan-featured .plan-caption{color:var(--interior-accent)}
+@media(max-width:760px){.tower-page .plan-price-sub{font-size:38px}}
+/* J5 2026-10-19: 代表ブロック（写真は仮枠） */
+.owner-note{border-top:1px solid var(--interior-line)}
+.owner-inner{display:grid;grid-template-columns:200px 1fr;gap:48px;align-items:center;max-width:900px}
+.owner-photo{aspect-ratio:1/1;background:#1b1d1c;border:1px solid var(--interior-line);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.owner-photo img{width:100%;height:100%;object-fit:cover}
+.owner-photo span{font-family:'Bodoni Moda',serif;color:var(--interior-copy);letter-spacing:.12em;font-size:13px}
+.owner-quote{font-family:'Yu Mincho',serif;font-size:20px;line-height:2;margin:0 0 20px}
+.owner-name{font-size:14px;margin:0;color:var(--interior-accent)}
+.owner-name span{display:block;color:var(--interior-copy);font-size:13px;margin-top:4px}
+@media(max-width:760px){.owner-inner{grid-template-columns:1fr;gap:24px}.owner-photo{max-width:160px}.owner-quote{font-size:17px}}
+/* N5/N6 2026-10-19: 追従ボタンを細く、本文との重なりを減らす */
+@media(max-width:760px){.tower-page main>section{scroll-margin-bottom:80px}.tower-page main>section:not(.hero){padding-bottom:88px}.tower-page .case-grid figcaption{padding-bottom:4px}}
+/* J9 2026-10-19: こんな方に */
+.tower-page .plan-for{font-size:13px;line-height:1.9;color:var(--interior-accent);margin:10px 0 0}
+/* J11 2026-10-19: ヒーローに料金1行 */
+.tower-page .hero-price{display:inline-block;margin-top:10px;font-size:14px;letter-spacing:.04em;color:#e8dcc4;border-bottom:1px solid rgba(216,178,115,.6);padding-bottom:2px}
+@media(max-width:760px){.tower-page .hero-price{font-size:13px}}
