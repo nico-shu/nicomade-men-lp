@@ -17,7 +17,7 @@
   if (hero && window.scrollY < 120) {
     const image = hero.querySelector('img');
     if (image) play(image, [{ transform: 'scale(1.025)' }, { transform: 'scale(1)' }], 3000);
-    hero.querySelectorAll('.label,.eyebrow,h1,.sub,.lead,.gold-button,.button,.hero-service-note,.hero-note').forEach((element, index) => fade(element, 120 + index * 180));
+    hero.querySelectorAll('.label,.eyebrow,h1,.sub,.lead,.gold-button,.button,.hero-service-note,.hero-price,.hero-note').forEach((element, index) => fade(element, 120 + index * 180));
   }
   const selectors = [
     '.section > .label', '.section > .interior-label', '.section > .eyebrow',
