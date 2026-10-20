@@ -40,3 +40,5 @@
 /* J11 2026-10-19: ヒーローに料金1行 */
 .tower-page .hero-price{display:inline-block;margin-top:10px;font-size:14px;letter-spacing:.04em;color:#e8dcc4;border-bottom:1px solid rgba(216,178,115,.6);padding-bottom:2px}
 @media(max-width:760px){.tower-page .hero-price{font-size:13px}}
+/* J18 2026-10-20: 1LDK 100,000円 */
+.tower-page .plan-note{margin-top:10px;font-size:13px;color:var(--interior-copy)}
